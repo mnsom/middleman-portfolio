@@ -1,19 +1,17 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Fit It
+  project_role: Lead Developer
+  description: A web-application that focuses in simplicity and organizing to help users manage their home layout and belongings to ease the stress when moving out to a new home.
+  image: projects/fitit.png
+  url: https://www.fit-it.homes/
 
-- name: Movie Watchlist
+- name: Canvas Culture
+  project_role: Lead Developer
   description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+  image: projects/canvas.png
+  url: https://canvas-culture-56856ec8c705.herokuapp.com/
 
-- name: Airbnb
+- name: Movie watch list
+  project_role: Full-Stack Developer (personal project)
   description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+  image: projects/movie.png
+  url: https://watch-list-mana-02de79b01100.herokuapp.com/
