@@ -5,15 +5,20 @@
         <h2 class="text-center section-title"> Projects </h2>
         <div class="cards">
           <% data.projects.each do |project| %>
-            <div class="card-product">
+            <div class="card-product ms-3">
               <%= image_tag project.image, alt: "project image", class:"project-photo" %>
               <div class="card-product-infos w-100">
-                <div class ="col-12 col-md-6 d-flex flex-column justify-content-center project-content">
-                  <h2><%= project.name %></h2>
-                  <p>Project role: <%= project.project_role %></p>
-                  <p><%= project.description %></p>
+                <div class ="col-12 flex-column project-content mx-3">
+                  <h2 class="project-name"><%= project.name %></h2>
+                  <p class="project-role"><strong>Project role:</strong> <%= project.project_role %></p>
+                  <p class="project-description"><%= project.description %></p>
+                  <ul class="icons">
+                    <% project.skills.each do |skill| %>
+                      <li><%= skill %></li>
+                    <% end %>
+                  </ul>
                   <div class="btns">
-                    <% link_to project.url, class: 'external-link', target: '_blank', class:"btn-ghost" do %>
+                    <% link_to project.url, class: 'external-link', target: '_blank', class:"btn-ghost me-2" do %>
                       <i class="fa-solid fa-globe"></i>
                       Website
                     <% end %>

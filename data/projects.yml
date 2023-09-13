@@ -3,15 +3,39 @@
   description: A web-application that focuses in simplicity and organizing to help users manage their home layout and belongings to ease the stress when moving out to a new home.
   image: projects/fitit.png
   url: https://www.fit-it.homes/
+  skills:
+    - '<i class="devicon-rails-plain-wordmark colored"></i>'
+    - '<i class="devicon-html5-plain-wordmark colored"></i>'
+    - '<i class="devicon-css3-plain-wordmark colored"></i>'
+    - '<i class="devicon-javascript-plain colored"></i>'
+    - '<i class="devicon-bootstrap-plain-wordmark colored"></i>'
+    - '<i class="devicon-postgresql-plain-wordmark colored"></i>'
+    - '<i class="devicon-heroku-line-wordmark colored"></i>'
 
 - name: Canvas Culture
   project_role: Lead Developer
-  description: Decent description of the app
+  description: A website which allows users to search, request and rent famous paintings from all around the world.
   image: projects/canvas.png
   url: https://canvas-culture-56856ec8c705.herokuapp.com/
+  skills:
+    - '<i class="devicon-rails-plain-wordmark colored"></i>'
+    - '<i class="devicon-html5-plain-wordmark colored"></i>'
+    - '<i class="devicon-css3-plain-wordmark colored"></i>'
+    - '<i class="devicon-javascript-plain colored"></i>'
+    - '<i class="devicon-bootstrap-plain-wordmark colored"></i>'
+    - '<i class="devicon-postgresql-plain-wordmark colored"></i>'
+    - '<i class="devicon-heroku-line-wordmark colored"></i>'
 
 - name: Movie watch list
   project_role: Full-Stack Developer (personal project)
-  description: Decent description of the app
+  description: My first app I worked on with ruby on rails. A website where users can create movie lists according to movie's genre.
   image: projects/movie.png
   url: https://watch-list-mana-02de79b01100.herokuapp.com/
+  skills:
+    - '<i class="devicon-rails-plain-wordmark colored"></i>'
+    - '<i class="devicon-html5-plain-wordmark colored"></i>'
+    - '<i class="devicon-css3-plain-wordmark colored"></i>'
+    - '<i class="devicon-javascript-plain colored"></i>'
+    - '<i class="devicon-bootstrap-plain-wordmark colored"></i>'
+    - '<i class="devicon-sqlite-plain-wordmark colored"></i>'
+    - '<i class="devicon-heroku-line-wordmark colored"></i>'

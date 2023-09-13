@@ -1,11 +1,11 @@
 .card-product {
   display: flex;
   margin: 30px auto;
+  align-items: center;
 }
 
 .project-photo {
   width: 50%;
-  height: 50%;
   object-position: center;
   object-fit: cover;
 }
@@ -32,4 +32,32 @@ width: 100%;
 
 .btns {
   display: flex;
+}
+
+#projects {
+  margin: 2rem 5rem;
+}
+
+.project-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.project-role {
+  font-size: 1.2rem;
+}
+
+.project-description {
+  margin-top: 1.5rem;
+}
+
+.icons {
+  font-size: 2rem;
+  list-style: none;
+  // padding: 1.8rem;
+  padding-left: 0;
+}
+
+.icons > li {
+  display: inline-block;
 }
