@@ -6,7 +6,15 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Portfolio" %></title>
+    <title><%= current_page.data.title || "Mana Misawa" %></title>
+    <meta name="description" content="Description of my portfolio site">
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="Mana Misawa - portfolio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="<%= image_path 'images/favicon.ico' %>" />
+    <meta property="og:description" content="A full stack developer based in Kyoto. Come and see my past projects." />
+    <meta property="og:site_name" content="Mana Misawa" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <%= stylesheet_link_tag "site" %>

@@ -3,6 +3,7 @@
   description: A web-application that focuses in simplicity and organizing to help users manage their home layout and belongings to ease the stress when moving out to a new home.
   image: projects/fitit.png
   url: https://www.fit-it.homes/
+  git_url: https://github.com/mnsom/fit-it
   skills:
     - '<i class="devicon-rails-plain-wordmark colored"></i>'
     - '<i class="devicon-html5-plain-wordmark colored"></i>'
@@ -17,6 +18,7 @@
   description: A website which allows users to search, request and rent famous paintings from all around the world.
   image: projects/canvas.png
   url: https://canvas-culture-56856ec8c705.herokuapp.com/
+  git_url: https://github.com/mnsom/canvas-culture
   skills:
     - '<i class="devicon-rails-plain-wordmark colored"></i>'
     - '<i class="devicon-html5-plain-wordmark colored"></i>'
@@ -31,6 +33,7 @@
   description: My first app I worked on with ruby on rails. A website where users can create movie lists according to movie's genre.
   image: projects/movie.png
   url: https://watch-list-mana-02de79b01100.herokuapp.com/
+  git_url: https://github.com/mnsom/rails-watch-list
   skills:
     - '<i class="devicon-rails-plain-wordmark colored"></i>'
     - '<i class="devicon-html5-plain-wordmark colored"></i>'
