@@ -1,1 +1,82 @@
 // Specific CSS for your home-page
+.container-home {
+  background-color: #F6F4EB;
+}
+
+
+/*Tablet styles*/
+@media (max-width: 850px) {
+  .avatar {
+    width: 700px;
+    margin-bottom: -140px;
+  }
+
+  .about-container {
+    display: none;
+    padding-top: 20px;
+  }
+
+  .about-me {
+    padding-top: 1rem;
+  }
+
+  .project-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .project-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    /*grid-row-gap: 1rem;*/
+    padding-top: 3rem;
+    padding-bottom: 0rem;
+    grid-column-gap: 0rem;
+
+    grid-template-areas:
+      "omagineImgs"
+      "omagineInfo"
+      "d0"
+      "sspImgs"
+      "sspInfo"
+      "asImgs"
+      "asInfo"
+      "d1"
+      "clImgs"
+      "clInfo"
+      "d2"
+      "jcImgs"
+      "jcInfo"
+      "d3"
+      "cbImgs"
+      "cbInfo";
+  }
+
+  .project-information {
+    padding-bottom: 6rem;
+  }
+
+  .content-container {
+    border-radius: 0px;
+  }
+}
+
+/*Phone styles*/
+@media (max-width: 450px) {
+  .hero-image {
+    width: 500px;
+    margin-bottom: -80px;
+  }
+
+  .project-card {
+    width: 80%;
+  }
+
+  .footer-icon-link {
+    display: inline-flex;
+    margin-top: 12px;
+  }
+  .line-footer {
+    display: none;
+  }
+}
