@@ -9,8 +9,16 @@
   margin: 0 auto;
   }
 
+  .nav-link {
+    color: black;
+  }
+
   #my-name {
     margin-left: 1rem;
+  }
+
+  #about {
+    text-align: center;
   }
 
   .profile-img {
@@ -18,12 +26,7 @@
     height: 200px;
     border-radius: 50%;
     box-shadow: 0 0 12px #ecd97b;
-    margin-left: 20%;
     margin-bottom: 5%;
-  }
-
-  .card-product {
-    display: block;
   }
 
   .about-container {
@@ -39,9 +42,13 @@
     font-size: 1rem;
   }
 
+  #my-info {
+    text-align: center;
+  }
+
   .list-inline > li {
     margin: 10px;
-    margin-top: 0;
+    margin-top: 10px;
   }
 
   .about-icons {
@@ -49,15 +56,41 @@
     color: black;
   }
 
-  .project-card {
-    width: 80%;
+  .card-product {
+    display: block;
+    margin: 15px auto;
   }
 
-  .footer-icon-link {
-    display: inline-flex;
-    margin-top: 12px;
+  .project-photo {
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+    margin-bottom: 5%;
   }
-  .line-footer {
-    display: none;
+
+  #projects {
+    margin: 2rem 0.5rem;
+  }
+
+  .project-name {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .project-role {
+    font-size: 1.0rem;
+  }
+
+  .project-description {
+    margin-top: 1.0rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .social-link {
+    font-size: 1.0rem;
+    color: black;
   }
 }
